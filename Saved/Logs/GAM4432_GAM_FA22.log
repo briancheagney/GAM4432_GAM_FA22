@@ -796,3 +796,952 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.11-22.41.46:872][ 41]AssetCheck: New page: Asset Save: multiple assets
 [2022.09.11-22.41.46:872][ 41]LogContentValidation: Display: Validating Texture2D /Game/StudentWork/Cain_C/Material/Cain_Wood.Cain_Wood
 [2022.09.11-22.41.46:872][ 41]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Material/Cain_Mat.Cain_Mat
+[2022.09.11-22.47.45:965][458]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.11-22.47.45:973][458]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.11-22.47.45:979][459]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.11-22.47.53:656][366]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2022.09.11-22.47.53:656][366]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.11-22.48.04:842][544]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.09.11-22.48.04:847][544]LogContentBrowser: Creating deferred item: NewFolder
+[2022.09.11-22.48.04:852][545]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.09.11-22.48.09:394][ 86]LogContentBrowser: Attempting asset rename: NewFolder -> Table
+[2022.09.11-22.48.09:395][ 86]LogContentBrowser: End creating deferred item NewFolder
+[2022.09.11-22.48.13:668][362]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/chris/OneDrive/Desktop/Senior Game Design Stuff/3D Modeling Furniture/Cain's Table.fbx)
+[2022.09.11-22.48.13:816][362]LogFbx: Loading FBX Scene from C:/Users/chris/OneDrive/Desktop/Senior Game Design Stuff/3D Modeling Furniture/Cain's Table.fbx
+[2022.09.11-22.48.13:860][362]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.11-22.48.17:227][362]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.11-22.48.17:270][362]LogTexture: Display: Building textures: /Game/StudentWork/Cain_C/Table/Metal_legs1.Metal_legs1 (BGRA8, 474X474 X1X1) (Required Memory Estimate: 4.285355 MB), EncodeSpeed: Fast
+[2022.09.11-22.48.17:270][362]LogMaterial: Display: Missing cached shadermap for Metal_Legs in PCD3D_SM5, Default, SM5 (DDC key hash: 35F249DD275CB30161B2DC76BFE58FBDF9C3DA64), compiling. 
+[2022.09.11-22.48.17:273][362]LogFbx: Display: Triangulating static mesh Cube.002
+[2022.09.11-22.48.17:285][362]LogTexture: Display: Building textures: /Game/StudentWork/Cain_C/Table/Wood_for_3D_Model.Wood_for_3D_Model (BGRA8, 474X474 X1X1) (Required Memory Estimate: 4.285355 MB), EncodeSpeed: Fast
+[2022.09.11-22.48.17:285][362]LogMaterial: Display: Missing cached shadermap for WoodTop in PCD3D_SM5, Default, SM5 (DDC key hash: E18B20B5E23E2DD0BDF0D3991059DA97473AC141), compiling. 
+[2022.09.11-22.48.17:288][362]LogFbx: Display: Triangulating static mesh Cube.005
+[2022.09.11-22.48.17:288][362]LogFbx: Display: Triangulating static mesh Cube.001
+[2022.09.11-22.48.17:289][362]LogFbx: Display: Triangulating static mesh Cube.006
+[2022.09.11-22.48.17:297][362]LogTexture: Display: Building textures: /Game/StudentWork/Cain_C/Table/Metal_legs_ncl1_1.Metal_legs_ncl1_1 (BGRA8, 474X474 X1X1) (Required Memory Estimate: 4.285355 MB), EncodeSpeed: Fast
+[2022.09.11-22.48.17:297][362]LogMaterial: Display: Missing cached shadermap for Material in PCD3D_SM5, Default, SM5 (DDC key hash: 54550005E2F1E8B91901406F6A29B46F664F0C58), compiling. 
+[2022.09.11-22.48.17:299][362]LogFbx: Display: Triangulating static mesh Cube
+[2022.09.11-22.48.17:307][362]LogMaterial: Display: Missing cached shadermap for Material_003 in PCD3D_SM5, Default, SM5 (DDC key hash: D09D83F69DD6FA194B63247AA927709B830434F9), compiling. 
+[2022.09.11-22.48.17:309][362]LogFbx: Display: Triangulating static mesh Cube.003
+[2022.09.11-22.48.17:310][362]LogStaticMesh: Display: Building static mesh Cain_s_Table...
+[2022.09.11-22.48.17:319][362]LogTexture: Display: Building textures: /Game/StudentWork/Cain_C/Table/UVCHECK2.UVCHECK2 (BGRA8, 894X894 X1X1) (Required Memory Estimate: 15.244217 MB), EncodeSpeed: Fast
+[2022.09.11-22.48.17:319][362]LogStaticMesh: Built static mesh [0.01s] /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.48.17:326][362]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Metal_legs' was renamed 'Metal_legs_ncl1_1' 
+[2022.09.11-22.48.17:327][362]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.11-22.48.17:363][362]LogStaticMesh: Display: Building static mesh Cain_s_Table...
+[2022.09.11-22.48.17:363][362]LogStaticMesh: Built static mesh [0.01s] /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: ================================================
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Total job queries 48, among them cache hits 0 (0.00%)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Tracking 40 distinct input hashes that result in 12 distinct outputs (30.00%)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: RAM used: 0.04 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Shaders Compiled: 36
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Jobs assigned 48, completed 40 (83.33%)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Average time worker was idle: 92.28 s
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Time job spent in pending queue: average 0.50 s, longest 1.53 s
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 1.45 s
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Job life time (pending + execution): average 1.39 s, max 2.09
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 7.53 s
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Jobs were issued in 45 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Average processing rate: 5.31 jobs/sec
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Effective parallelization: 4.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.04 sec, max 1.05 sec, min 1.03 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.98 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 1.00 sec, max 1.16 sec, min 0.68 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 0.99 sec, max 0.99 sec, min 0.98 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.98 sec, max 1.13 sec, min 0.67 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.33% of total time (compiled    6 times, average 1.00 sec, max 1.16 sec, min 0.68 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.02% of total time (compiled    6 times, average 0.98 sec, max 1.13 sec, min 0.67 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.01% of total time (compiled    2 times, average 1.04 sec, max 1.05 sec, min 1.03 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 5.89% of total time (compiled    2 times, average 1.02 sec, max 1.05 sec, min 0.98 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 5.70% of total time (compiled    2 times, average 0.99 sec, max 0.99 sec, min 0.98 sec)
+[2022.09.11-22.48.19:031][467]LogShaderCompilers: Display: ================================================
+[2022.09.11-22.48.41:644][ 74]LogSlate: Window 'Message Log' being destroyed
+[2022.09.11-22.48.41:649][ 74]LogSlate: Window 'Message Log' being destroyed
+[2022.09.11-22.48.50:261][913]LogContentBrowser: Attempting asset rename: Cain_s_Table -> Cain_s_Table
+[2022.09.11-22.48.50:418][929]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.48.50:445][929]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.48.50:479][929]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2022.09.11-22.48.50:770][929]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2022.09.11-22.48.58:133][486]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.48.58:139][486]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.48.58:162][486]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.48.58:162][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.49.02:996][955]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.02:996][955]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.03:754][ 38]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.03:754][ 38]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.04:841][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.09.11-22.49.05:604][165]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.05:619][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.09.11-22.49.05:629][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.09.11-22.49.05:636][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2022.09.11-22.49.08:654][456]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.08:654][456]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.09:268][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.49.10:066][527]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.10:080][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.10:087][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.49.10:096][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.09.11-22.49.12:601][786]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.12:601][786]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.13:197][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.13:935][855]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.13:949][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.13:957][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.13:964][855]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.11-22.49.15:120][974]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.15:120][974]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.15:483][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.16:115][ 15]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.16:129][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2022.09.11-22.49.16:138][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2022.09.11-22.49.16:145][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.11-22.49.17:327][143]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.17:327][143]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.17:790][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.18:489][196]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.18:503][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.49.18:511][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.18:519][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2022.09.11-22.49.19:908][344]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.19:908][344]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.20:338][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.49.21:104][393]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.21:118][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.09.11-22.49.21:125][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.11-22.49.21:133][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2022.09.11-22.49.22:015][485]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.22:015][485]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.22:645][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.23:413][558]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.23:426][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.11-22.49.23:434][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.49.23:442][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2022.09.11-22.49.24:980][721]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.24:980][721]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.25:395][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.11-22.49.27:251][768]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.27:265][768]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/StudentWork/Cain_C/Table/Wood_for_3D_Model.Wood_for_3D_Model
+	Asset Type: Texture2D
+[2022.09.11-22.49.27:357][768]LogMaterial: Display: Missing cached shadermap for WoodTop in PCD3D_SM5, Default, SM5 (DDC key hash: 6C22F0344C4EC4190B61299BFBCECA45642CFAB9), compiling. 
+[2022.09.11-22.49.27:358][768]LogMaterial: Warning: [AssetLog] /Game/StudentWork/Cain_C/Table/WoodTop.WoodTop (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.09.11-22.49.27:373][768]LogMaterial: Warning: WoodTop: Requesting an invalid TextureIndex! (0 / 0)
+[2022.09.11-22.49.27:391][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.09.11-22.49.27:399][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.27:406][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.11-22.49.28:705][902]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.28:705][902]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.49.28:994][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.09.11-22.49.29:751][934]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.49.29:766][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.49.29:774][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.49.29:782][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.09.11-22.50.10:193][456]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/chris/OneDrive/Desktop/Senior Game Design Stuff/3D Modeling Furniture/Cain's Table.fbx)
+[2022.09.11-22.50.10:201][456]LogFbx: Loading FBX Scene from C:/Users/chris/OneDrive/Desktop/Senior Game Design Stuff/3D Modeling Furniture/Cain's Table.fbx
+[2022.09.11-22.50.10:208][456]LogFbx: FBX Scene Loaded Succesfully
+[2022.09.11-22.50.14:148][456]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.09.11-22.50.14:167][456]LogTexture: Display: Building textures: /Game/StudentWork/Cain_C/Table/Metal_legs1.Metal_legs1 (BGRA8, 474X474 X1X1) (Required Memory Estimate: 4.285355 MB), EncodeSpeed: Fast
+[2022.09.11-22.50.14:167][456]LogMaterial: Display: Missing cached shadermap for Metal_Legs in PCD3D_SM5, Default, SM5 (DDC key hash: E808268048988A619EB39C7D29128F6C3213F6B7), compiling. 
+[2022.09.11-22.50.14:170][456]LogFbx: Display: Triangulating static mesh Cube.002
+[2022.09.11-22.50.14:178][456]LogTexture: Display: Building textures: /Game/StudentWork/Cain_C/Table/Wood_for_3D_Model.Wood_for_3D_Model (BGRA8, 474X474 X1X1) (Required Memory Estimate: 4.285355 MB), EncodeSpeed: Fast
+[2022.09.11-22.50.14:178][456]LogMaterial: Display: Missing cached shadermap for WoodTop in PCD3D_SM5, Default, SM5 (DDC key hash: CCDAF9F7F96707F46E2569CFEECAE02123B6885D), compiling. 
+[2022.09.11-22.50.14:180][456]LogFbx: Display: Triangulating static mesh Cube.005
+[2022.09.11-22.50.14:180][456]LogFbx: Display: Triangulating static mesh Cube.001
+[2022.09.11-22.50.14:182][456]LogFbx: Display: Triangulating static mesh Cube.006
+[2022.09.11-22.50.14:188][456]LogTexture: Display: Building textures: /Game/StudentWork/Cain_C/Table/Metal_legs_ncl1_1.Metal_legs_ncl1_1 (BGRA8, 474X474 X1X1) (Required Memory Estimate: 4.285355 MB), EncodeSpeed: Fast
+[2022.09.11-22.50.14:188][456]LogMaterial: Display: Missing cached shadermap for Material in PCD3D_SM5, Default, SM5 (DDC key hash: BB5BA5A06D80AA5410322CCB0ED4D67545134ED0), compiling. 
+[2022.09.11-22.50.14:191][456]LogFbx: Display: Triangulating static mesh Cube
+[2022.09.11-22.50.14:194][456]LogStaticMesh: Display: Building static mesh Cain_s_Table...
+[2022.09.11-22.50.14:203][456]LogStaticMesh: Built static mesh [0.01s] /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.50.14:211][456]FBXImport: FBX Scene Loading: Found texture name clash, name clash can be wrongly reassign at reimport , texture 'Metal_legs' was renamed 'Metal_legs_ncl1_1' 
+[2022.09.11-22.50.14:211][456]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.09.11-22.50.14:245][456]LogStaticMesh: Display: Building static mesh Cain_s_Table...
+[2022.09.11-22.50.14:245][456]LogStaticMesh: Built static mesh [0.01s] /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.50.27:982][ 29]LogSlate: Window 'Message Log' being destroyed
+[2022.09.11-22.50.27:988][ 29]LogSlate: Window 'Message Log' being destroyed
+[2022.09.11-22.50.34:991][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.11-22.50.36:190][753]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.11-22.50.54:466][851]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.50.54:466][851]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.03:592][936]LogContentBrowser: Attempting asset rename: Metal_legs1 -> Cain_Metal
+[2022.09.11-22.51.03:633][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StudentWork/Cain_C/Table/Cain_Metal" FILE="C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal.uasset" SILENT=true
+[2022.09.11-22.51.03:635][936]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal
+[2022.09.11-22.51.03:635][936]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_MetalF7B08C9140D8DDB4641BB0A5BCB6DC7F.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal.uasset'
+[2022.09.11-22.51.03:655][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.09.11-22.51.03:663][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.51.03:671][936]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.09.11-22.51.03:673][936]AssetCheck: New page: Asset Save: Cain_Metal
+[2022.09.11-22.51.03:673][936]LogContentValidation: Display: Validating Texture2D /Game/StudentWork/Cain_C/Table/Cain_Metal.Cain_Metal
+[2022.09.11-22.51.08:079][339]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.08:079][339]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.17:731][486]LogContentBrowser: Attempting asset rename: Material -> Cain_Metal_Mat
+[2022.09.11-22.51.19:789][486]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.11-22.51.19:789][486]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002915s (0.006701s overbudget)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: ================================================
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Total job queries 78, among them cache hits 18 (23.08%)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Tracking 60 distinct input hashes that result in 12 distinct outputs (20.00%)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: RAM used: 0.04 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Shaders Compiled: 48
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Jobs assigned 60, completed 60 (100.00%)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Average time worker was idle: 98.38 s
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Time job spent in pending queue: average 0.48 s, longest 1.53 s
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Job execution time: average 1.04 s, max 1.45 s
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Job life time (pending + execution): average 1.53 s, max 2.46
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.46 s
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Jobs were issued in 60 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Average processing rate: 5.74 jobs/sec
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Effective parallelization: 4.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 1.05 sec, max 1.06 sec, min 1.03 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 1.03 sec, max 1.05 sec, min 0.98 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    3 times, average 1.01 sec, max 1.05 sec, min 0.98 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    6 times, average 1.00 sec, max 1.16 sec, min 0.68 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 0.99 sec, max 1.05 sec, min 0.96 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.95% of total time (compiled    6 times, average 1.00 sec, max 1.16 sec, min 0.68 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.74% of total time (compiled    6 times, average 0.98 sec, max 1.13 sec, min 0.67 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.60% of total time (compiled    6 times, average 0.80 sec, max 0.87 sec, min 0.64 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.25% of total time (compiled    3 times, average 1.05 sec, max 1.06 sec, min 1.03 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.15% of total time (compiled    3 times, average 1.03 sec, max 1.05 sec, min 0.98 sec)
+[2022.09.11-22.51.19:793][486]LogShaderCompilers: Display: ================================================
+[2022.09.11-22.51.19:811][486]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat
+[2022.09.11-22.51.19:811][486]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal_Mat96425ED94B497C6FBBD9F3894854457C.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal_Mat.uasset'
+[2022.09.11-22.51.19:830][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.09.11-22.51.19:838][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.11-22.51.19:845][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2022.09.11-22.51.19:847][486]AssetCheck: New page: Asset Save: Cain_Metal_Mat
+[2022.09.11-22.51.19:847][486]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat.Cain_Metal_Mat
+[2022.09.11-22.51.21:543][653]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.21:543][653]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.31:780][734]LogContentBrowser: Attempting asset rename: Metal_Legs -> Cain_Metal_Mat1
+[2022.09.11-22.51.33:720][734]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1
+[2022.09.11-22.51.33:720][734]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal_Mat1BDA1032C4DAEB485C26C19A1A26D9691.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal_Mat1.uasset'
+[2022.09.11-22.51.33:739][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.51.33:747][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.51.33:754][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.09.11-22.51.33:756][734]AssetCheck: New page: Asset Save: Cain_Metal_Mat1
+[2022.09.11-22.51.33:756][734]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1.Cain_Metal_Mat1
+[2022.09.11-22.51.35:850][954]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.35:850][954]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.36:724][ 52]LogContentBrowser: Attempting asset rename: Metal_legs_ncl1_1 -> Metal_legs_ncl1_1
+[2022.09.11-22.51.39:063][305]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.39:063][305]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.54:777][180]LogContentBrowser: Attempting asset rename: Metal_legs_ncl1_1 -> Cain_Metal1
+[2022.09.11-22.51.54:816][180]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat
+[2022.09.11-22.51.54:817][180]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal_Mat8D6AF60E43C1D32E7863EC9F810378CA.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal_Mat.uasset'
+[2022.09.11-22.51.54:820][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StudentWork/Cain_C/Table/Cain_Metal1" FILE="C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal1.uasset" SILENT=true
+[2022.09.11-22.51.54:821][180]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal1
+[2022.09.11-22.51.54:821][180]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal101BE5BAA46EA6E27B2C4699E3AC8F60B.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal1.uasset'
+[2022.09.11-22.51.54:840][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.09.11-22.51.54:848][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.09.11-22.51.54:856][180]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2022.09.11-22.51.54:859][180]AssetCheck: New page: Asset Save: multiple assets
+[2022.09.11-22.51.54:859][180]LogContentValidation: Display: Validating Texture2D /Game/StudentWork/Cain_C/Table/Cain_Metal1.Cain_Metal1
+[2022.09.11-22.51.54:859][180]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat.Cain_Metal_Mat
+[2022.09.11-22.51.57:576][473]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.51.57:576][473]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.52.03:167][137]LogContentBrowser: Attempting asset rename: Wood_for_3D_Model -> Cain_Wood
+[2022.09.11-22.52.03:212][137]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StudentWork/Cain_C/Table/Cain_Wood" FILE="C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Wood.uasset" SILENT=true
+[2022.09.11-22.52.03:213][137]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Wood
+[2022.09.11-22.52.03:213][137]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_WoodB5D1754649A96D2B8373828C0E1CC83D.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Wood.uasset'
+[2022.09.11-22.52.03:232][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.09.11-22.52.03:239][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.09.11-22.52.03:247][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.09.11-22.52.03:249][137]AssetCheck: New page: Asset Save: Cain_Wood
+[2022.09.11-22.52.03:249][137]LogContentValidation: Display: Validating Texture2D /Game/StudentWork/Cain_C/Table/Cain_Wood.Cain_Wood
+[2022.09.11-22.52.05:154][335]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.52.05:154][335]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.09.11-22.52.14:430][434]LogContentBrowser: Attempting asset rename: WoodTop -> Cain_Wood_Mat
+[2022.09.11-22.52.16:543][434]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.11-22.52.16:639][434]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.000022s (0.152992s overbudget)
+[2022.09.11-22.52.16:665][434]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat
+[2022.09.11-22.52.16:665][434]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Wood_MatE8E8EF6B47E34D6210D47C9BF681BDBC.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Wood_Mat.uasset'
+[2022.09.11-22.52.16:684][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.09.11-22.52.16:692][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.11-22.52.16:700][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2022.09.11-22.52.16:702][434]AssetCheck: New page: Asset Save: Cain_Wood_Mat
+[2022.09.11-22.52.16:702][434]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat.Cain_Wood_Mat
+[2022.09.11-22.52.26:096][499]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.52.26:118][499]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.52.26:406][499]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2022.09.11-22.52.40:643][594]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.52.40:649][594]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.52.40:675][594]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.52.40:675][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.52.43:007][836]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat.Cain_Wood_Mat
+[2022.09.11-22.52.43:009][836]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 86C2A9E9D7C60E33B5DD5D0CBA74B7AB90E2862E), compiling. 
+[2022.09.11-22.52.43:030][836]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.52.43:104][836]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C00A91876BDBDE0DA584363B7B5263A0F5F861C6), compiling. 
+[2022.09.11-22.52.43:108][836]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 786CF4BA54B19A82F3D250791A85A683A0333684), compiling. 
+[2022.09.11-22.52.43:111][836]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 201EF185D13357EB7EDD0C13D6D5DAE6A8B2677F), compiling. 
+[2022.09.11-22.52.43:130][836]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.52.43:130][836]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.52.43:130][836]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.52.43:130][836]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.52.43:133][836]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.11-22.52.43:135][836]LogViewport: Scene viewport resized to 242x267, mode Windowed.
+[2022.09.11-22.52.43:854][875]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.52.43:854][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.52.43:854][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.52.43:854][875]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.52.44:246][898]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.52.44:246][898]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.52.44:246][898]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.52.44:246][898]MaterialEditorStats: Shader Count: 2
+[2022.09.11-22.53.00:996][479]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 1E3ABB4BDED5AC4E36065D43D1AC2E1C3CD5D0FB), compiling. 
+[2022.09.11-22.53.01:009][479]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.01:009][479]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.01:009][479]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.01:009][479]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.01:074][482]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.01:074][482]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.01:074][482]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.01:074][482]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.04:631][805]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5677BBB0F617812A72EC7C9F8A2E66AFF03239B8), compiling. 
+[2022.09.11-22.53.04:633][805]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.04:633][805]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.04:633][805]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.04:633][805]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.04:699][808]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.04:699][808]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.04:699][808]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.04:699][808]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.07:132][ 49]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 1EE38E767A3B568237525880F7A8ED915B4CAC98), compiling. 
+[2022.09.11-22.53.07:136][ 49]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.07:136][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.07:136][ 49]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.07:136][ 49]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.07:749][ 87]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.53.07:749][ 87]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.07:749][ 87]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.07:749][ 87]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.53.08:147][113]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.08:147][113]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.08:147][113]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.08:147][113]MaterialEditorStats: Shader Count: 3
+[2022.09.11-22.53.13:547][555]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: E6292A31129596705C07D6A0425643CA2598B479), compiling. 
+[2022.09.11-22.53.13:551][555]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.13:551][555]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.13:551][555]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.13:551][555]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.14:041][583]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.53.14:041][583]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.14:041][583]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.14:041][583]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.53.15:046][685]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B71F42F86116BD342388297B2236625E6E39DEB5), compiling. 
+[2022.09.11-22.53.15:049][685]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.15:049][685]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.15:049][685]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.15:049][685]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.15:129][688]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.15:129][688]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.15:129][688]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.15:129][688]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.22:311][378]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: CAC335740F429F4E7FBA79B249016305F94C0936), compiling. 
+[2022.09.11-22.53.22:315][378]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.22:315][378]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.22:315][378]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.22:315][378]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.22:883][415]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.53.22:883][415]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.22:883][415]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.22:883][415]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.53.23:277][442]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.23:277][442]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.23:277][442]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.23:277][442]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.25:622][680]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: CEC8BEFFC1374A2D6B73FA97CBF441ADA1C9009B), compiling. 
+[2022.09.11-22.53.25:626][680]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.25:626][680]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.25:626][680]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.25:626][680]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.25:682][683]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.25:682][683]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.25:682][683]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.25:682][683]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.30:171][ 34]LogMaterialEditor: Saving and Compiling material Cain_Wood_Mat
+[2022.09.11-22.53.30:682][ 34]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 94F670F2B4F4CB764A2C54CD8411DB6AD3E4D6E8), compiling. 
+[2022.09.11-22.53.30:692][ 34]LogMaterial: Display: Missing cached shadermap for Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 91FC5313A3F8D5F2F01D4D5BFD1E4C6A91353ED4), compiling. 
+[2022.09.11-22.53.30:735][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.53.31:597][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.53.33:355][ 34]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat
+[2022.09.11-22.53.33:356][ 34]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Wood_Mat3B6DE5DD4DA13B031A1682900569099D.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Wood_Mat.uasset'
+[2022.09.11-22.53.33:365][ 34]AssetCheck: New page: Asset Save: Cain_Wood_Mat
+[2022.09.11-22.53.33:365][ 34]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat.Cain_Wood_Mat
+[2022.09.11-22.53.33:366][ 34]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.09.11-22.53.33:366][ 34]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.11-22.53.33:366][ 34]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.11-22.53.33:366][ 34]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.33:366][ 34]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.33:366][ 34]MaterialEditorStats: Shader Count: 16
+[2022.09.11-22.53.34:111][ 94]LogSlate: Window 'Cain_Wood_Mat' being destroyed
+[2022.09.11-22.53.34:117][ 94]LogSlate: Window 'Cain_Wood_Mat' being destroyed
+[2022.09.11-22.53.34:126][ 94]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.53.34:126][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.53.36:745][361]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.53.36:772][361]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.53.37:054][361]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2022.09.11-22.53.40:063][591]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.53.40:070][591]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.53.40:094][591]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.53.40:094][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.53.42:664][843]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat.Cain_Metal_Mat
+[2022.09.11-22.53.42:666][843]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B952104E56402313A988650391C8089737C1C7F6), compiling. 
+[2022.09.11-22.53.42:682][843]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.53.42:752][843]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 69DEC4AED804E3DB5226E681317999EDC37C01FE), compiling. 
+[2022.09.11-22.53.42:756][843]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9FCC316AA1DE6B79E49A1DE989B36331FD93DAB0), compiling. 
+[2022.09.11-22.53.42:759][843]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E8ABDCEDB3511737325FCB45BA1839BAB78E69C4), compiling. 
+[2022.09.11-22.53.42:776][843]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.42:776][843]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.42:776][843]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.42:776][843]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.42:780][843]LogViewport: Scene viewport resized to 242x267, mode Windowed.
+[2022.09.11-22.53.43:252][871]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.53.43:252][871]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.43:252][871]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.43:252][871]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.53.43:646][897]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.43:646][897]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.43:646][897]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.43:646][897]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.48:077][301]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C808455506EB839D687A1DDB1A8C348816C40393), compiling. 
+[2022.09.11-22.53.48:080][301]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.48:080][301]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.48:080][301]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.48:080][301]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.48:146][304]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.48:146][304]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.48:146][304]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.48:146][304]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.49:781][455]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: EF51800D1174641F8778EC47128E4CB97D86EFBB), compiling. 
+[2022.09.11-22.53.49:784][455]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.49:784][455]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.49:784][455]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.49:784][455]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.49:850][458]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.49:850][458]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.49:850][458]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.49:850][458]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.54:485][929]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 2FD0028912A7C95F6F241C93A8A2509B934F5630), compiling. 
+[2022.09.11-22.53.54:489][929]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.54:489][929]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.54:489][929]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.54:489][929]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.55:013][962]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.53.55:013][962]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.55:013][962]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.55:013][962]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.53.56:066][ 70]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8EE3086FAAF5D276282385C1DD2AA639D2306A40), compiling. 
+[2022.09.11-22.53.56:070][ 70]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.53.56:070][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.56:070][ 70]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.56:070][ 70]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.53.56:605][101]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.53.56:605][101]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.56:605][101]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.56:605][101]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.53.57:012][128]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.53.57:012][128]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.53.57:012][128]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.53.57:012][128]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.53.58:643][274]LogMaterialEditor: Saving and Compiling material Cain_Metal_Mat
+[2022.09.11-22.53.59:145][274]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5FF33F72CDD42FEE504BAA4FB149D49E7E020827), compiling. 
+[2022.09.11-22.53.59:156][274]LogMaterial: Display: Missing cached shadermap for Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 0840BDBA315C5BA21A712DDAA72A8B312FCAB182), compiling. 
+[2022.09.11-22.53.59:198][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.11-22.54.00:045][274]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.54.01:831][274]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat
+[2022.09.11-22.54.01:831][274]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal_Mat1066BFBC4B9ADC7B4CF7388626975123.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal_Mat.uasset'
+[2022.09.11-22.54.01:840][274]AssetCheck: New page: Asset Save: Cain_Metal_Mat
+[2022.09.11-22.54.01:840][274]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat.Cain_Metal_Mat
+[2022.09.11-22.54.01:841][274]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.09.11-22.54.01:841][274]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.11-22.54.01:841][274]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.11-22.54.01:841][274]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.01:841][274]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.01:841][274]MaterialEditorStats: Shader Count: 16
+[2022.09.11-22.54.02:764][346]LogSlate: Window 'Cain_Metal_Mat' being destroyed
+[2022.09.11-22.54.02:770][346]LogSlate: Window 'Cain_Metal_Mat' being destroyed
+[2022.09.11-22.54.02:778][346]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.54.02:778][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.54.04:945][563]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1.Cain_Metal_Mat1
+[2022.09.11-22.54.04:947][563]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: D0237350135905BC0C1B87056211566C2BCB1095), compiling. 
+[2022.09.11-22.54.04:962][563]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.54.05:038][563]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0535D658B886E61D28E2AD24654592296929571F), compiling. 
+[2022.09.11-22.54.05:043][563]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: 9B0BD5000F06C00DB6BEA2D42B855E8E7AF84A05), compiling. 
+[2022.09.11-22.54.05:045][563]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 108F8F20EEA8D8FAB1629049EF56F4665145A3E7), compiling. 
+[2022.09.11-22.54.05:062][563]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.54.05:062][563]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.05:062][563]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.05:062][563]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.54.05:067][563]LogViewport: Scene viewport resized to 242x267, mode Windowed.
+[2022.09.11-22.54.05:584][592]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.54.05:584][592]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.05:584][592]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.05:584][592]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.54.05:984][619]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.54.05:984][619]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.05:984][619]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.05:984][619]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.54.09:726][966]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: 37D9410C20FDBD8BBC9E483A7F6191C3EEDADF8C), compiling. 
+[2022.09.11-22.54.09:728][966]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.54.09:728][966]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.09:728][966]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.09:728][966]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.54.09:792][969]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.54.09:792][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.09:792][969]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.09:792][969]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.54.16:071][589]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: 4566C9B72D414271F6DEFFD1857CDAB87040DA2F), compiling. 
+[2022.09.11-22.54.16:074][589]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.54.16:074][589]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.16:074][589]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.16:074][589]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.54.16:139][592]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.54.16:139][592]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.16:139][592]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.16:139][592]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.54.19:169][891]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: 78140F3D83C770B209187517030889D38064C9D0), compiling. 
+[2022.09.11-22.54.19:172][891]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.54.19:172][891]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.19:172][891]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.19:172][891]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.54.19:692][923]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.54.19:692][923]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.19:692][923]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.19:692][923]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: ================================================
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Total job queries 309, among them cache hits 151 (48.87%)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Tracking 146 distinct input hashes that result in 21 distinct outputs (14.38%)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: RAM used: 0.07 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Shaders Compiled: 114
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Jobs assigned 146, completed 146 (100.00%)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Average time worker was idle: 46.44 s
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Time job spent in pending queue: average 0.32 s, longest 1.53 s
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Job execution time: average 0.95 s, max 1.45 s
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Job life time (pending + execution): average 1.27 s, max 2.46
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.62 s
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Jobs were issued in 146 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Average processing rate: 5.29 jobs/sec
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Effective parallelization: 4.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    7 times, average 1.02 sec, max 1.08 sec, min 0.92 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    7 times, average 1.00 sec, max 1.05 sec, min 0.91 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    7 times, average 0.99 sec, max 1.05 sec, min 0.91 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    7 times, average 0.96 sec, max 1.05 sec, min 0.87 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    7 times, average 0.96 sec, max 1.01 sec, min 0.90 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.89% of total time (compiled   16 times, average 0.85 sec, max 1.16 sec, min 0.68 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.40% of total time (compiled   16 times, average 0.81 sec, max 1.13 sec, min 0.67 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.94% of total time (compiled   15 times, average 0.76 sec, max 0.87 sec, min 0.64 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.22% of total time (compiled    7 times, average 1.02 sec, max 1.08 sec, min 0.92 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.14% of total time (compiled    7 times, average 1.00 sec, max 1.05 sec, min 0.91 sec)
+[2022.09.11-22.54.20:075][955]LogShaderCompilers: Display: ================================================
+[2022.09.11-22.54.20:830][ 38]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: 3B197E814C4CC9A7D48238C03B3CBCCDED5067A8), compiling. 
+[2022.09.11-22.54.20:833][ 38]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.54.20:833][ 38]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.20:833][ 38]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.20:833][ 38]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.54.21:420][ 72]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.54.21:420][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.21:420][ 72]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.21:420][ 72]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.54.21:800][ 99]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.54.21:800][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.21:800][ 99]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.21:800][ 99]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.54.22:356][142]LogMaterialEditor: Saving and Compiling material Cain_Metal_Mat1
+[2022.09.11-22.54.22:857][142]LogMaterial: Display: Missing cached shadermap for Preview:Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: F90A9A9CAC8F0814067E6ED46BA84A173E3749E6), compiling. 
+[2022.09.11-22.54.22:868][142]LogMaterial: Display: Missing cached shadermap for Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: AE8CF14D802EE6BF877FD2794F79E9548D4A6C7F), compiling. 
+[2022.09.11-22.54.22:908][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.11-22.54.23:652][142]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.09.11-22.54.25:400][142]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1
+[2022.09.11-22.54.25:401][142]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal_Mat1D091C1D74AC78654E5931EB1CE20F19D.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal_Mat1.uasset'
+[2022.09.11-22.54.25:409][142]AssetCheck: New page: Asset Save: Cain_Metal_Mat1
+[2022.09.11-22.54.25:409][142]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1.Cain_Metal_Mat1
+[2022.09.11-22.54.25:410][142]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.09.11-22.54.25:410][142]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.11-22.54.25:410][142]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.11-22.54.25:410][142]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.25:410][142]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.25:410][142]MaterialEditorStats: Shader Count: 16
+[2022.09.11-22.54.26:535][232]LogSlate: Window 'Cain_Metal_Mat1' being destroyed
+[2022.09.11-22.54.26:541][232]LogSlate: Window 'Cain_Metal_Mat1' being destroyed
+[2022.09.11-22.54.26:549][232]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.54.26:549][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.54.28:686][441]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.54.28:713][441]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.54.28:996][441]LogViewport: Scene viewport resized to 910x538, mode Windowed.
+[2022.09.11-22.54.51:774][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StudentWork/Cain_C/Table/Cain_s_Table" FILE="C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_s_Table.uasset" SILENT=true
+[2022.09.11-22.54.51:777][171]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_s_Table
+[2022.09.11-22.54.51:777][171]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_s_Table0325E84D4ECB2E700360CC88C9B89194.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_s_Table.uasset'
+[2022.09.11-22.54.51:786][171]AssetCheck: New page: Asset Save: Cain_s_Table
+[2022.09.11-22.54.51:787][171]LogContentValidation: Display: Validating StaticMesh /Game/StudentWork/Cain_C/Table/Cain_s_Table.Cain_s_Table
+[2022.09.11-22.54.53:037][268]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.54.53:044][268]LogSlate: Window 'Cain_s_Table' being destroyed
+[2022.09.11-22.54.53:068][268]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.54.53:068][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.54.55:001][465]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1.Cain_Metal_Mat1
+[2022.09.11-22.54.55:003][465]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8597193CBC4B2D987B90A025359962FCE52E751A), compiling. 
+[2022.09.11-22.54.55:019][465]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.54.55:093][465]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0F54BE5A77B54EC848F72791538F55179608BA8D), compiling. 
+[2022.09.11-22.54.55:097][465]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 58F1F44E5B6B87B7320FC5510231959BD35BCE7C), compiling. 
+[2022.09.11-22.54.55:100][465]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E2A3C42B4F082304E8BACF983D7459799D6ED04F), compiling. 
+[2022.09.11-22.54.55:118][465]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.54.55:118][465]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.55:118][465]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.55:118][465]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.54.55:122][465]LogViewport: Scene viewport resized to 242x267, mode Windowed.
+[2022.09.11-22.54.55:726][500]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.54.55:726][500]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.55:726][500]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.55:726][500]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.54.56:122][526]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.54.56:122][526]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.54.56:122][526]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.54.56:122][526]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.00:698][880]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 169C3E7D27BF5D618DF17DE41CC99DE30C98779E), compiling. 
+[2022.09.11-22.55.00:703][880]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AD0435453670EB212B713C189D3BB7EFE0EC81E0), compiling. 
+[2022.09.11-22.55.00:705][880]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.00:705][880]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.00:705][880]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.00:705][880]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.01:218][915]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.55.01:218][915]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.01:218][915]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.01:218][915]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.55.01:620][943]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.01:620][943]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.01:620][943]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.01:620][943]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.04:272][151]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 00B3C6C061C1478211151A144A2A6040A1C3BE16), compiling. 
+[2022.09.11-22.55.04:277][151]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 10DB0AD53B7E4B02834DD22DBA732815CF367772), compiling. 
+[2022.09.11-22.55.04:279][151]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.04:279][151]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.04:279][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.04:279][151]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.04:833][189]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.55.04:833][189]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.04:833][189]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.04:833][189]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.55.05:221][218]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.05:221][218]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.05:221][218]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.05:221][218]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.15:168][739]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D8B3F97C9CB1C1B526A275E40984A7BE0009E734), compiling. 
+[2022.09.11-22.55.15:173][739]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 053232B19CBE8F5DC6045F941690419A0A6E9595), compiling. 
+[2022.09.11-22.55.15:175][739]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.15:175][739]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.15:175][739]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.15:175][739]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.15:700][773]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.55.15:700][773]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.15:700][773]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.15:700][773]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.55.16:092][799]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.16:092][799]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.16:092][799]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.16:092][799]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.24:936][490]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5EC0C1BEFF827EFB2E4712E1ABF03D797B69D3C5), compiling. 
+[2022.09.11-22.55.24:941][490]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CC65FAC7F09179B90DB75C551CAA00E9775D1FB1), compiling. 
+[2022.09.11-22.55.24:943][490]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.24:943][490]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.24:943][490]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.24:943][490]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.24:975][493]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.24:975][493]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.24:975][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.24:975][493]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.29:753][863]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 32A3757D1BEABA568E4BED5898EAC62BCA39B832), compiling. 
+[2022.09.11-22.55.29:758][863]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 54C73B45CD5AAEEA72D4D39E7AE6F8F9C12B4F8F), compiling. 
+[2022.09.11-22.55.29:760][863]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.29:760][863]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.29:760][863]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.29:760][863]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.30:238][895]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.55.30:238][895]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.30:238][895]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.30:238][895]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.55.30:645][922]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.30:645][922]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.30:645][922]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.30:645][922]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.33:403][136]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 144CA1F06650E03260E16A6BF44B4DC98DF0EF95), compiling. 
+[2022.09.11-22.55.33:408][136]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 57C23AE1E3AE1F4C4D43F2385A0E6265214F48DA), compiling. 
+[2022.09.11-22.55.33:410][136]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.33:410][136]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.33:410][136]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.33:410][136]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.33:955][173]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.55.33:955][173]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.33:955][173]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.33:955][173]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.55.34:364][200]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.34:364][200]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.34:364][200]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.34:364][200]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.36:056][332]LogMaterialEditor: Saving and Compiling material Cain_Metal_Mat1
+[2022.09.11-22.55.36:560][332]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 92DA3A973639BA75011BC6AA9978F20A26353962), compiling. 
+[2022.09.11-22.55.36:570][332]LogMaterial: Display: Missing cached shadermap for Cain_Metal_Mat1 in PCD3D_SM5, Default, SM5 (DDC key hash: 7AFBEE59BBE6FE90AF7507AAFDB7E5D73C863B49), compiling. 
+[2022.09.11-22.55.36:626][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.09.11-22.55.37:371][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.09.11-22.55.39:481][332]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.11-22.55.39:492][332]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.003962s (0.050318s overbudget)
+[2022.09.11-22.55.39:516][332]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1
+[2022.09.11-22.55.39:517][332]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal_Mat1C12386EB4E94F53048715FBB10433A13.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal_Mat1.uasset'
+[2022.09.11-22.55.39:527][332]AssetCheck: New page: Asset Save: Cain_Metal_Mat1
+[2022.09.11-22.55.39:527][332]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat1.Cain_Metal_Mat1
+[2022.09.11-22.55.39:528][332]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.09.11-22.55.39:528][332]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.11-22.55.39:528][332]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.11-22.55.39:528][332]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.39:528][332]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.39:528][332]MaterialEditorStats: Shader Count: 16
+[2022.09.11-22.55.39:851][358]LogSlate: Window 'Cain_Metal_Mat1' being destroyed
+[2022.09.11-22.55.39:856][358]LogSlate: Window 'Cain_Metal_Mat1' being destroyed
+[2022.09.11-22.55.39:865][358]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.55.39:865][358]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.55.53:224][999]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat.Cain_Metal_Mat
+[2022.09.11-22.55.53:226][999]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2BFFA5002F828B5B8DAE5DD510DF74F18DF76B78), compiling. 
+[2022.09.11-22.55.53:243][999]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.55.53:317][999]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 93B22B2D205FDCA8227AB71CF6D1ADA1D369680A), compiling. 
+[2022.09.11-22.55.53:322][999]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 3F5E590A5B6C258B9EF56E7ADA324AE4780F69DB), compiling. 
+[2022.09.11-22.55.53:324][999]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A8B184FD012FE89513922085BB841CD153899717), compiling. 
+[2022.09.11-22.55.53:341][999]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.53:341][999]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.53:341][999]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.53:341][999]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.53:346][999]LogViewport: Scene viewport resized to 242x267, mode Windowed.
+[2022.09.11-22.55.53:851][ 27]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.55.53:851][ 27]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.53:851][ 27]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.53:851][ 27]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.55.54:255][ 52]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.54:255][ 52]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.54:255][ 52]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.54:255][ 52]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.55:095][113]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 6158F4ECE4A4E9549AF3CD460BAF0811A5C31A3E), compiling. 
+[2022.09.11-22.55.55:098][113]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.55:098][113]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.55:098][113]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.55:098][113]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.55:132][116]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.55:132][116]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.55:132][116]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.55:132][116]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.57:541][294]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2ACF83712CC6B9737C111F0EF41A4063C2909BDA), compiling. 
+[2022.09.11-22.55.57:545][294]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: D0CE147CEFFCE92CBB16CD3E4ABD4AAD95908D8F), compiling. 
+[2022.09.11-22.55.57:547][294]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.55.57:547][294]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.57:548][294]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.57:548][294]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.55.58:023][324]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.55.58:023][324]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.58:023][324]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.58:023][324]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.55.58:418][350]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.55.58:418][350]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.55.58:418][350]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.55.58:418][350]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.55.59:283][415]LogMaterialEditor: Saving and Compiling material Cain_Metal_Mat
+[2022.09.11-22.55.59:787][415]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 142B2916626EB8E39EC6685752F2952C3D8DCC77), compiling. 
+[2022.09.11-22.55.59:798][415]LogMaterial: Display: Missing cached shadermap for Cain_Metal_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: DD11185FE3E6ABF1C7762BDE36CEB92971307FFC), compiling. 
+[2022.09.11-22.55.59:840][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.09.11-22.56.00:586][415]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.11-22.56.02:672][415]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.09.11-22.56.02:672][415]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001946s (0.014061s overbudget)
+[2022.09.11-22.56.02:697][415]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat
+[2022.09.11-22.56.02:698][415]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Metal_MatD0A0CA404D3DC13F0168DF9132B38DD2.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Metal_Mat.uasset'
+[2022.09.11-22.56.02:708][415]AssetCheck: New page: Asset Save: Cain_Metal_Mat
+[2022.09.11-22.56.02:708][415]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Metal_Mat.Cain_Metal_Mat
+[2022.09.11-22.56.02:709][415]MaterialEditorStats: Base pass shader: 127 instructions
+[2022.09.11-22.56.02:709][415]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.11-22.56.02:709][415]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.11-22.56.02:709][415]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.02:709][415]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.02:709][415]MaterialEditorStats: Shader Count: 16
+[2022.09.11-22.56.03:149][450]LogSlate: Window 'Cain_Metal_Mat' being destroyed
+[2022.09.11-22.56.03:154][450]LogSlate: Window 'Cain_Metal_Mat' being destroyed
+[2022.09.11-22.56.03:163][450]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.09.11-22.56.03:163][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.11-22.56.06:241][754]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat.Cain_Wood_Mat
+[2022.09.11-22.56.06:243][754]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 79DCBF086A7B69B4A429931F271F89703334101C), compiling. 
+[2022.09.11-22.56.06:260][754]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.09.11-22.56.06:334][754]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 22C19FDE55BA3F44DA7DAF548402DA100E37C70B), compiling. 
+[2022.09.11-22.56.06:339][754]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 079D05FC05493E3717E540D74F8B45506B9AD763), compiling. 
+[2022.09.11-22.56.06:341][754]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1D4C41294048C06317B0CB3E3AB439F069B3AED1), compiling. 
+[2022.09.11-22.56.06:358][754]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.06:358][754]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.06:358][754]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.06:358][754]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.06:363][754]LogViewport: Scene viewport resized to 242x267, mode Windowed.
+[2022.09.11-22.56.06:907][784]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.06:907][784]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.06:907][784]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.06:907][784]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.07:292][808]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.07:292][808]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.07:292][808]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.07:292][808]MaterialEditorStats: Shader Count: 3
+[2022.09.11-22.56.10:222][ 32]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: BB5BD9F2DED80E751BA17A8C8CCADAD2F3331266), compiling. 
+[2022.09.11-22.56.10:227][ 32]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 88A109D3529BABD4EA583AAC7EF3A748A3F423E9), compiling. 
+[2022.09.11-22.56.10:229][ 32]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.10:229][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.10:229][ 32]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.10:229][ 32]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.10:716][ 64]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.10:716][ 64]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.10:716][ 64]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.10:716][ 64]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.11:418][115]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.11:418][115]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.11:418][115]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.11:418][115]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.13:174][250]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 81853C2B41EAC0D33A38C99FC45929611BCF7705), compiling. 
+[2022.09.11-22.56.13:178][250]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: DB4D0A577AC8954A30DF19C6EE9F2B8B492244AD), compiling. 
+[2022.09.11-22.56.13:181][250]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.13:181][250]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.13:181][250]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.13:181][250]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.13:211][253]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.13:211][253]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.13:211][253]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.13:211][253]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.15:063][392]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 2D76B277F9BBB77EDE7115A5FC3EB9B2BED4926D), compiling. 
+[2022.09.11-22.56.15:065][392]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.15:065][392]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.15:065][392]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.15:065][392]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.15:097][395]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.15:097][395]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.15:097][395]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.15:097][395]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.17:289][564]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 1F1FCC447D1194574F2195BC848473FAA23F0218), compiling. 
+[2022.09.11-22.56.17:294][564]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 295C8E1D7240204FBB095A76928D6181E9A8DBE8), compiling. 
+[2022.09.11-22.56.17:296][564]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.17:296][564]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.17:296][564]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.17:296][564]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.17:758][594]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.17:758][594]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.17:758][594]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.17:758][594]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.18:161][621]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.18:161][621]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.18:161][621]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.18:161][621]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.21:943][912]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 480AD1A1D25F7E1D6744EB287EBFC0B44AF1D914), compiling. 
+[2022.09.11-22.56.21:947][912]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 78D6921D8311824C8208DD2778B079C330681B52), compiling. 
+[2022.09.11-22.56.21:950][912]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.21:950][912]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.21:950][912]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.21:950][912]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.22:487][948]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.22:487][948]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.22:487][948]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.22:487][948]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.22:877][974]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.22:877][974]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.22:877][974]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.22:877][974]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.24:080][ 66]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: AF59449CB6E0B1A675CF4BE997EE85F7BE3D7559), compiling. 
+[2022.09.11-22.56.24:084][ 66]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: EB432935207A310BA6AAB5EA7B4ACCB6D2EAD6CD), compiling. 
+[2022.09.11-22.56.24:087][ 66]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.24:087][ 66]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.24:087][ 66]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.24:087][ 66]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.24:636][103]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.24:637][103]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.24:637][103]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.24:637][103]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.25:032][130]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.25:032][130]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.25:032][130]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.25:032][130]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.28:054][363]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 0D771CE0F3710DBAD7D42A8A27687309741EF4E9), compiling. 
+[2022.09.11-22.56.28:059][363]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: F91C17907341C35D526DEF4B3B63CF9C762D2D94), compiling. 
+[2022.09.11-22.56.28:061][363]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.28:061][363]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.28:061][363]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.28:061][363]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.28:092][366]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.28:092][366]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.28:092][366]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.28:092][366]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.30:506][553]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 454E384D0364B2DC596D6E71931F03BFEF385084), compiling. 
+[2022.09.11-22.56.30:511][553]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: AA5D29B8BB0E71AC50DCC28F5D3A6CC06E5E128E), compiling. 
+[2022.09.11-22.56.30:513][553]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.30:513][553]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.30:513][553]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.30:513][553]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.31:024][588]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.31:024][588]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.31:024][588]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.31:024][588]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.31:439][615]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.31:439][615]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.31:439][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.31:439][615]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.35:263][903]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 0E34A5203D820CAEF4BFBD84F68B37B2DBBDAAF6), compiling. 
+[2022.09.11-22.56.35:268][903]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 5C776517D72719A920BDE574C77413B050B905C3), compiling. 
+[2022.09.11-22.56.35:271][903]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.35:271][903]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.35:271][903]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.35:271][903]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.35:753][933]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.35:753][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.35:753][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.35:753][933]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.36:164][960]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.36:164][960]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.36:164][960]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.36:164][960]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.38:587][144]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 39271854CE9D9871DCC49F7801DC7A3555D7FED6), compiling. 
+[2022.09.11-22.56.38:592][144]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 1DFBA4AC7876D5C7BB95DB735512EBCA57FF47EF), compiling. 
+[2022.09.11-22.56.38:595][144]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.38:595][144]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.38:595][144]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.38:595][144]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.39:134][180]MaterialEditorStats: Texture samplers: 1/16
+[2022.09.11-22.56.39:134][180]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.39:134][180]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.39:134][180]MaterialEditorStats: Shader Count: 1
+[2022.09.11-22.56.39:545][206]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.39:545][206]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.39:545][206]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.39:545][206]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.45:915][699]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 43A7DE14F2B00CBB3F5F21B6550481FD9A7A4732), compiling. 
+[2022.09.11-22.56.45:920][699]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 3652BC4C909EB2B0A17B5531BA2346CCD882477D), compiling. 
+[2022.09.11-22.56.45:922][699]MaterialEditorStats: Texture samplers: 0/16
+[2022.09.11-22.56.45:922][699]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.45:922][699]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.45:922][699]MaterialEditorStats: Shader Count: 0
+[2022.09.11-22.56.45:954][702]MaterialEditorStats: Texture samplers: 3/16
+[2022.09.11-22.56.45:955][702]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.45:955][702]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.45:955][702]MaterialEditorStats: Shader Count: 4
+[2022.09.11-22.56.50:470][ 50]LogMaterialEditor: Saving and Compiling material Cain_Wood_Mat
+[2022.09.11-22.56.50:980][ 50]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 8B96D2A1047BF34CB894F76E9E0B7B4D9C2E688B), compiling. 
+[2022.09.11-22.56.50:990][ 50]LogMaterial: Display: Missing cached shadermap for Cain_Wood_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 71F33F2159101010D703662A266C57B5CEB57200), compiling. 
+[2022.09.11-22.56.51:033][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.09.11-22.56.51:777][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2022.09.11-22.56.53:855][ 50]LogSavePackage: Moving output files for package: /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat
+[2022.09.11-22.56.53:855][ 50]LogSavePackage: Moving 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Saved/Cain_Wood_Mat37CC2D1649A3675F0A52E8B2F8AC34A8.tmp' to 'C:/Users/chris/OneDrive/Documents/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Cain_C/Table/Cain_Wood_Mat.uasset'
+[2022.09.11-22.56.53:866][ 50]AssetCheck: New page: Asset Save: Cain_Wood_Mat
+[2022.09.11-22.56.53:866][ 50]LogContentValidation: Display: Validating Material /Game/StudentWork/Cain_C/Table/Cain_Wood_Mat.Cain_Wood_Mat
+[2022.09.11-22.56.53:867][ 50]MaterialEditorStats: Base pass shader: 126 instructions
+[2022.09.11-22.56.53:867][ 50]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2022.09.11-22.56.53:867][ 50]MaterialEditorStats: Texture samplers: 4/16
+[2022.09.11-22.56.53:867][ 50]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.09.11-22.56.53:867][ 50]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.09.11-22.56.53:867][ 50]MaterialEditorStats: Shader Count: 16
