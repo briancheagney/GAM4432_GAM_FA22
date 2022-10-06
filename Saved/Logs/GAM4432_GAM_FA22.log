@@ -777,3 +777,65 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.06-18.33.15:670][638]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/AQR88YD6LGK6H90H8ZFW7U_Auto1F6862C6A453D3F24E9CA8C8FC551863E.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/GD/AQR88YD6LGK6H90H8ZFW7U_Auto1.uasset'
 [2022.10.06-18.33.15:671][638]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.014
 [2022.10.06-18.33.15:671][638]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.014
+[2022.10.06-18.52.32:011][245]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.10.06-18.52.33:704][245]LogSlate: Window 'Save Content' being destroyed
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: ================================================
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Total job queries 36, among them cache hits 0 (0.00%)
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Tracking 36 distinct input hashes that result in 15 distinct outputs (41.67%)
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: RAM used: 0.04 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.00%
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Shaders Compiled: 12
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Jobs assigned 36, completed 36 (100.00%)
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Average time worker was idle: 496.03 s
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Time job spent in pending queue: average 0.77 s, longest 2.08 s
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Job execution time: average 0.88 s, max 1.32 s
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Job life time (pending + execution): average 1.65 s, max 2.70
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.73 s
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Average processing rate: 7.62 jobs/sec
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Effective parallelization: 5.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.06-18.52.35:746][245]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.94 sec, max 0.94 sec, min 0.94 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.93 sec, max 0.93 sec, min 0.93 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.91 sec, max 0.91 sec, min 0.91 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.92% of total time (compiled    6 times, average 0.77 sec, max 0.84 sec, min 0.64 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.11% of total time (compiled    6 times, average 0.74 sec, max 0.82 sec, min 0.54 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.08% of total time (compiled    6 times, average 0.70 sec, max 0.77 sec, min 0.55 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.66% of total time (compiled    6 times, average 0.27 sec, max 0.31 sec, min 0.23 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 3.87% of total time (compiled    1 times, average 0.95 sec, max 0.95 sec, min 0.95 sec)
+[2022.10.06-18.52.35:747][245]LogShaderCompilers: Display: ================================================
+[2022.10.06-18.52.35:770][245]LogSavePackage: Moving output files for package: /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Greebal
+[2022.10.06-18.52.35:770][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/GreebalB4D5C4D04B96F8E27CD1DDBCCA5D8FF4.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Carlton_W/ScifiObject_Carlton/Greebal.uasset'
+[2022.10.06-18.52.38:940][245]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.10.06-18.52.38:940][245]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049962s
+[2022.10.06-18.52.38:940][245]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.050000s (0.050393s overbudget)
+[2022.10.06-18.52.38:957][245]LogSavePackage: Moving output files for package: /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Greebal2
+[2022.10.06-18.52.38:957][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/Greebal2E31F204D4FCBAA9E85CC8BA0396ECB8D.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Carlton_W/ScifiObject_Carlton/Greebal2.uasset'
+[2022.10.06-18.52.40:737][245]LogSavePackage: Moving output files for package: /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Metal
+[2022.10.06-18.52.40:737][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/MetalC2C80BD9449CB05766E701AE97FB2696.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Carlton_W/ScifiObject_Carlton/Metal.uasset'
+[2022.10.06-18.52.40:739][245]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/GD/AQR88YD6LGK6H90H8ZFW7U
+[2022.10.06-18.52.40:739][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/AQR88YD6LGK6H90H8ZFW7UF4F91E104CD5A18200A7E2ADFF495C53.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/GD/AQR88YD6LGK6H90H8ZFW7U.uasset'
+[2022.10.06-18.52.42:406][245]LogSavePackage: Moving output files for package: /Game/StudentWork/Carlton_W/ScifiObject_Carlton/SliverMetal
+[2022.10.06-18.52.42:407][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/SliverMetal56C0CA14415068FB3839C08D650D720E.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Carlton_W/ScifiObject_Carlton/SliverMetal.uasset'
+[2022.10.06-18.52.42:412][245]LogSavePackage: Moving output files for package: /Game/StudentWork/Carlton_W/ScifiObject_Carlton/solar-panel-ecological-renewable-energy-picture-id1158103946-2147483647
+[2022.10.06-18.52.42:412][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/solar-panel-ecological-renewable9D84DB2D430876657B8ACD9AD5F0C716.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Carlton_W/ScifiObject_Carlton/solar-panel-ecological-renewable-energy-picture-id1158103946-2147483647.uasset'
+[2022.10.06-18.52.44:063][245]LogSavePackage: Moving output files for package: /Game/StudentWork/Carlton_W/ScifiObject_Carlton/SolarPanelEdges
+[2022.10.06-18.52.44:063][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/SolarPanelEdgesE6B8806E4BA9DEE0A0F298980FBAE0FD.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Carlton_W/ScifiObject_Carlton/SolarPanelEdges.uasset'
+[2022.10.06-18.52.45:833][245]LogSavePackage: Moving output files for package: /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Solorpanel
+[2022.10.06-18.52.45:833][245]LogSavePackage: Moving '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Saved/Solorpanel41E2F0F845E5C7E2B10F9D86B52F91D1.tmp' to '../../../../../../Users/wesle/GitHub/GAM4432_GAM_FA22/Content/StudentWork/Carlton_W/ScifiObject_Carlton/Solorpanel.uasset'
+[2022.10.06-18.52.45:850][245]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating Material /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Metal.Metal
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating Material /Game/StudentWork/Carlton_W/ScifiObject_Carlton/SliverMetal.SliverMetal
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating Material /Game/StudentWork/Carlton_W/ScifiObject_Carlton/SolarPanelEdges.SolarPanelEdges
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating Material /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Solorpanel.Solorpanel
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating Texture2D /Game/StudentWork/Carlton_W/ScifiObject_Carlton/solar-panel-ecological-renewable-energy-picture-id1158103946-2147483647.solar-panel-ecological-renewable-energy-picture-id1158103946-2147483647
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating Material /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Greebal.Greebal
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating Material /Game/StudentWork/Carlton_W/ScifiObject_Carlton/Greebal2.Greebal2
+[2022.10.06-18.52.45:851][245]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_18C04D852E2E563D01_2080377711
+[2022.10.06-18.52.59:270][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2022.10.06-18.53.00:299][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2022.10.06-18.53.02:239][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
